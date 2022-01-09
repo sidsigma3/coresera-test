@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.he1 {
+  border-color: red;
+}
+
+.he1 .sec {
+  background-color: grey;
+  border: 2px solid black;
+}
+
+.he1 .sec div {
+  position: relative;
+  left: 2px;
+  top: -2px;
+  border: 2px solid black;
+  width: 30%;
+  background-color: pink;
+  font-weight: bold;
+  float: right;
+  text-align: center;
+}
+
+.he1 .sec p {
+  clear: right;
+  padding: 10px 6px 5px 6px;
+  font-weight: bold;
+}
+
+.he2 {
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+.he2 .sec {
+  background-color: grey;
+  border: 2px solid black;
+}
+
+.he2 .sec div {
+  position: relative;
+  left: 2px;
+  top: -2px;
+  border: 2px solid black;
+  background-color: maroon;
+  text-align: center;
+  color: white;
+  float: right;
+  width: 30%;
+}
+
+.he2 .sec p {
+  clear: right;
+  padding: 10px 6px 5px 6px;
+  font-weight: bold;
+}
+
+.he3 div {
+  background-color: grey;
+  border: 2px solid black;
+}
+
+.he3 div div {
+  position: relative;
+  left: 2px;
+  top: -2px;
+  border: 2px solid black;
+  background-color: yellowgreen;
+  float: right;
+  width: 30%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.he3 div p {
+  clear: right;
+  padding: 10px 6px 5px 6px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=mod-2.css.map */
