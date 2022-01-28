@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: "Oxygen";
+    
+}
+.navbar-header,.navbar-collapse{
+    display: none;
+}
+
+
+.menu{
+    margin-top: 15px;
+    div{
+        background-color: grey;
+        h3{
+            text-align: center;
+            font-size: 1.2em;
+            
+        }
+
+        p{
+            padding-left: 5px;
+            color: black;
+            font-size: 0.8em;
+        }
+    }
+}
+h2{
+    text-align: center;
+}
+
+.navbar-nav{
+    justify-content: center;
+    align-items: center;
+    a{
+        text-decoration: none;
+        
+    }
+}
+
+@media(max-width:767px){
+.navbar-header,.navbar-collapse{
+    display: block;
+}
+.navbar-nav{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    a{
+        text-decoration: none;
+    }
+}
+
+.navbar-toggler-icon{
+    background-color: black;
+}
+
+}
